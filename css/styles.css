@@ -3,12 +3,17 @@
 }
 
 body {
-	max-width: 1200px;
-	width: 100%;
+	background-color: rgb(245, 245, 242);
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	font-size: 16px;
-	background-color: rgb(245, 245, 242);
+}
+
+#main-container {
+	height: 100vh;
+	margin: auto;
+	max-width: 1200px;
+	width: 100%;
 }
 
 header {
@@ -51,7 +56,7 @@ nav ul li {
 
 nav ul a {
 	text-decoration: none;
-	color: rgb(rgb(20, 20, 20));
+	color: rgb(20, 20, 20);
 }
 
 #ikonNav {
