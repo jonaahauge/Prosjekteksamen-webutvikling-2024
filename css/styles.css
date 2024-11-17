@@ -135,6 +135,11 @@ a {
 
 	#main-header-nav {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	#nav-logo {
+		padding: 0px 1rem;
 	}
 }
