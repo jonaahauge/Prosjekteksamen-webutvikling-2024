@@ -14,8 +14,10 @@ body {
 	margin: 0 auto;
 	max-width: 1200px;
 	width: 100%;
+	padding: 0 1rem;
 }
 
+/*header*/
 header {
 	display: flex;
 	flex-direction: column;
@@ -24,34 +26,34 @@ header {
 	padding: 0.7rem 0rem;
 }
 
-form {
+header form {
 	border: 2px;
 	border-style: solid;
 	border-color: gray;
 	border-radius: 25px;
-	width: fit-content;
 	margin-bottom: 0.5rem;
 }
 
-form input {
+header form input {
 	max-width: 250px;
 }
 
-form input,
-form button {
+header form input,
+header form button {
 	border: none;
 	margin: 5px 5px;
 	background-color: rgb(245, 245, 242);
 }
 
+header nav ul li {
+	padding: 0.3rem 0.3rem;
+}
+/*header*/
+
 nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-
-header nav ul li {
-	padding: 0.3rem 0.3rem;
 }
 
 nav ul a {
@@ -64,6 +66,7 @@ nav ul a {
 	justify-content: center;
 }
 
+/*footer*/
 footer {
 	display: flex;
 	flex-direction: row;
@@ -73,14 +76,33 @@ footer {
 
 #footer-logo {
 	width: 100%;
+	border-top: 2px solid lightgrey;
+	padding-top: 2rem;
 }
 
 footer h5 {
 	margin-bottom: 0.5rem;
 }
 
-footer nav ul li {
+footer nav p {
+	display: inline-block;
+	margin: 0.3rem 0;
+	padding-right: 0.5rem;
 }
+
+.kontakt-p {
+	margin-left: 0.3rem;
+}
+
+.kontakt-i {
+	width: 1rem;
+}
+
+.sosiale-i {
+	margin: 0 0.6rem;
+	font-size: 1.4rem;
+}
+/*footer*/
 
 h1 {
 	font-size: 2.2rem;
@@ -99,8 +121,4 @@ h5 {
 }
 p {
 	font-size: 1rem;
-}
-a {
-	font-size: 1rem;
-	font-weight: 600;
 }
