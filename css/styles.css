@@ -68,6 +68,42 @@ nav ul a {
 
 /* Main */
 
+/*Banner*/
+.slideshow {
+	--slide-width: clamp(320px, 100vw, 1200px);
+	display: grid;
+	grid-auto-flow: column;
+	scroll-snap-type: x mandatory;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+#slide1 {
+	scroll-snap-align: start;
+	background-image: url(..//bilder/banner/slider1-600.jpg);
+	width: var(--slide-width);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#slide2 {
+	background-image: url(..//bilder/banner/slider2-600.jpg);
+	width: var(--slide-width);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#slide3 {
+	background-image: url(..//bilder/banner/slider3-600.jpg);
+	width: var(--slide-width);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*Banner*/
 /* Main */
 
 /*footer*/
