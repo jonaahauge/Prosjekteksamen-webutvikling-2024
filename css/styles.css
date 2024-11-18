@@ -3,9 +3,9 @@
 }
 
 body {
-	background-color: rgb(245, 245, 242);
+	background-color: rgb(245, 245, 245);
 	font-family: sans-serif;
-	color: rgb(29, 29, 29);
+	color: rgb(20, 20, 20);
 	font-size: 16px;
 }
 
@@ -15,6 +15,11 @@ body {
 	max-width: 1200px;
 	width: 100%;
 	padding: 0 1rem;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
 }
 
 /*header*/
@@ -42,7 +47,7 @@ header form input,
 header form button {
 	border: none;
 	margin: 5px 5px;
-	background-color: rgb(245, 245, 242);
+	background-color: rgb(245, 245, 245);
 }
 
 header nav ul li {
@@ -58,7 +63,7 @@ nav ul {
 
 nav ul a {
 	text-decoration: none;
-	color: rgb(29, 29, 29);
+	color: rgb(20, 20, 20);
 }
 
 .ikon-nav {
@@ -69,38 +74,9 @@ nav ul a {
 /* Main */
 
 /*Banner*/
-.slideshow {
-	--slide-width: clamp(320px, 100vw, 1200px);
-	display: grid;
-	grid-auto-flow: column;
-	scroll-snap-type: x mandatory;
-	overflow-y: hidden;
-	overflow-x: auto;
-}
-
-#slide1 {
-	scroll-snap-align: start;
-	background-image: url(..//bilder/banner/slider1-600.jpg);
-	width: var(--slide-width);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#slide2 {
-	background-image: url(..//bilder/banner/slider2-600.jpg);
-	width: var(--slide-width);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-}
-
-#slide3 {
-	background-image: url(..//bilder/banner/slider3-600.jpg);
-	width: var(--slide-width);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+#banner {
+	width: 100%;
+	height: 300px;
 }
 
 /*Banner*/
@@ -182,4 +158,51 @@ a {
 	#nav-logo {
 		padding: 0px 1rem;
 	}
+
+	#banner {
+		background-image: url(..//bilder/banner/slider1-1200.jpg);
+	}
+
+	/* banner
+	.slideshow {
+		--slide-width: clamp(300px, 100vw, 1200px);
+		--slide-hight: clamp();
+
+		height: 25rem;
+		display: grid;
+		grid-auto-flow: column;
+		scroll-snap-type: x mandatory;
+		overflow-x: scroll;
+		scroll-behavior: smooth;
+		scrollbar-width: thin;
+		border-radius: 25px;
+	}
+
+	#slide1 {
+		background-image: url(..//bilder/banner/slider1-1200.jpg);
+		width: var(--slide-width);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#slide2 {
+		background-image: url(..//bilder/banner/slider2-1200.jpg);
+		width: 100vw;
+
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#slide3 {
+		background-image: url(..//bilder/banner/slider3-1200.jpg);
+		width: 100vw;
+
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	 banner */
 }
