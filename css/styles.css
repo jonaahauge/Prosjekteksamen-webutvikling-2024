@@ -83,8 +83,7 @@ nav ul a {
 /* våre mest populære */
 
 #våre-mest-popilære-produkter {
-	h2,
-	p {
+	#overskrift-produkter {
 		text-align: center;
 	}
 }
@@ -112,21 +111,24 @@ nav ul a {
 #produkt-div {
 	margin-top: 1.5rem;
 	display: flex;
-	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 .produkt-kort {
 	max-width: 350px;
-	border: 2px solid gray;
+	img {
+		width: 300px;
+	}
 	a {
 		display: block;
 		position: relative;
 	}
 	button {
 		position: absolute;
-		bottom: 230px;
+		top: 10px;
 		right: 10px;
-		border-radius: 100px;
+		border-radius: 25px;
 		padding: 0.6rem;
 		border: none;
 		background-color: lightgray;
@@ -144,10 +146,6 @@ nav ul a {
 		p {
 			margin-top: 5px;
 		}
-	}
-
-	#anmeldelse-info {
-		justify-content: baseline;
 	}
 }
 
@@ -279,6 +277,11 @@ a {
 		color: rgb(245, 245, 245);
 	}
 
+	#produkt-div {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
 	/* banner
 	.slideshow {
 		--slide-width: clamp(300px, 100vw, 1200px);
