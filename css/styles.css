@@ -99,7 +99,7 @@ nav ul a {
 	border-radius: 25px;
 	padding: 0.8rem;
 	margin: 1rem 0.5rem 0.5rem 0.5rem;
-	min-width: 150px;
+	width: 150px;
 }
 
 #produkt-knapp1 {
@@ -108,7 +108,7 @@ nav ul a {
 	border: none;
 }
 
-#produkt-div {
+#produkt-section {
 	margin-top: 1.5rem;
 	display: flex;
 	align-items: center;
@@ -117,6 +117,7 @@ nav ul a {
 
 .produkt-kort {
 	max-width: 350px;
+	padding: 1rem;
 	img {
 		width: 300px;
 	}
@@ -151,6 +152,48 @@ nav ul a {
 
 /* våre mest populære  */
 /* kategorier */
+
+#kategori-section {
+	text-align: center;
+	#kategori-grid {
+		display: grid;
+		grid-gap: 0.5rem;
+
+		grid-template-columns: auto auto auto auto auto auto;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+
+		article {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	#kategori1 {
+		background-color: red;
+		grid-column: 1/4;
+		grid-row: 1/5;
+	}
+	#kategori2 {
+		background-color: aqua;
+		grid-column: 4/5;
+		grid-row: 1/5;
+	}
+	#kategori3 {
+		background-color: green;
+		grid-column: 1/5;
+		grid-row: 5/7;
+	}
+	#kategori4 {
+		background-color: yellow;
+		grid-column: 5/7;
+		grid-row: 1/5;
+	}
+	#kategori5 {
+		background-color: blueviolet;
+		grid-column: 5/7;
+		grid-row: 5/7;
+	}
+}
 
 /* kategorier */
 /* anmeldelser */
@@ -249,7 +292,7 @@ a {
 	font-size: 1rem;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
 	header {
 		flex-direction: row;
 		justify-content: space-between;
@@ -277,12 +320,83 @@ a {
 		color: rgb(245, 245, 245);
 	}
 
-	#produkt-div {
+	#produkt-section {
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
-	/* banner
+
+	:hover.like-hover {
+		background-color: lightcoral;
+	}
+
+	#kategori-section {
+		grid-template-columns: auto auto auto auto auto auto;
+		grid-template-rows: 50px 50px 50px 50px 50px 50px;
+
+		#kategori1 {
+			background-color: red;
+			grid-column: 1/4;
+			grid-row: 1/5;
+		}
+		#kategori2 {
+			background-color: aqua;
+			grid-column: 4/5;
+			grid-row: 1/5;
+		}
+		#kategori3 {
+			background-color: green;
+			grid-column: 1/5;
+			grid-row: 5/7;
+		}
+		#kategori4 {
+			background-color: yellow;
+			grid-column: 5/7;
+			grid-row: 1/5;
+		}
+		#kategori5 {
+			background-color: blueviolet;
+			grid-column: 5/7;
+			grid-row: 5/7;
+		}
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	#kategori-section {
+		grid-template-columns: auto auto auto auto auto auto;
+		grid-template-rows: 75px 75px 75px 75px 75px 75px;
+
+		#kategori1 {
+			background-color: red;
+			grid-column: 1/4;
+			grid-row: 1/7;
+		}
+		#kategori2 {
+			background-color: aqua;
+			grid-column: 4/5;
+			grid-row: 1/4;
+		}
+		#kategori3 {
+			background-color: green;
+			grid-column: 5/7;
+			grid-row: 1/4;
+		}
+		#kategori4 {
+			background-color: yellow;
+			grid-column: 4/5;
+			grid-row: 4/7;
+		}
+		#kategori5 {
+			background-color: blueviolet;
+			grid-column: 5/7;
+			grid-row: 4/7;
+		}
+	}
+}
+
+/* banner
 	.slideshow {
 		--slide-width: clamp(300px, 100vw, 1200px);
 		--slide-hight: clamp();
@@ -324,4 +438,3 @@ a {
 	}
 
 	 banner */
-}
