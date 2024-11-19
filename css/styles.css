@@ -103,6 +103,54 @@ nav ul a {
 	min-width: 150px;
 }
 
+#produkt-knapp1 {
+	background-color: rgb(70, 70, 70);
+	color: rgb(245, 245, 245);
+	border: none;
+}
+
+#produkt-div {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.produkt-kort {
+	max-width: 350px;
+	border: 2px solid gray;
+	a {
+		display: block;
+		position: relative;
+	}
+	button {
+		position: absolute;
+		bottom: 230px;
+		right: 10px;
+		border-radius: 100px;
+		padding: 0.6rem;
+		border: none;
+		background-color: lightgray;
+
+		i {
+			font-size: 1.5rem;
+			color: rgb(245, 245, 245);
+		}
+	}
+	span {
+		display: flex;
+		justify-content: space-between;
+
+		h5,
+		p {
+			margin-top: 5px;
+		}
+	}
+
+	#anmeldelse-info {
+		justify-content: baseline;
+	}
+}
+
 /* våre mest populære  */
 /* kategorier */
 
@@ -221,7 +269,13 @@ a {
 	}
 
 	.produkt-knapp:hover {
-		background-color: rgb(100, 100, 100);
+		background-color: rgb(128, 125, 125);
+		color: rgb(245, 245, 245);
+		border: none;
+	}
+
+	#produkt-knapp1:hover {
+		background-color: rgb(128, 125, 125);
 		color: rgb(245, 245, 245);
 	}
 
