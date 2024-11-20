@@ -246,7 +246,7 @@ footer {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
+	padding-bottom: 3rem;
 	h5 {
 		margin-bottom: 0.5rem;
 	}
@@ -256,25 +256,22 @@ footer {
 		margin: 0.3rem 0;
 		padding-right: 0.5rem;
 	}
+	#footer-logo {
+		padding-top: 2rem;
+		width: 100%;
+	}
+	.kontakt-p {
+		margin-left: 0.3rem;
+	}
+	.kontakt-i {
+		width: 1rem;
+	}
+	.sosiale-i {
+		margin: 0 0.6rem;
+		font-size: 1.4rem;
+	}
 }
 
-#footer-logo {
-	padding-top: 2rem;
-	width: 100%;
-}
-
-.kontakt-p {
-	margin-left: 0.3rem;
-}
-
-.kontakt-i {
-	width: 1rem;
-}
-
-.sosiale-i {
-	margin: 0 0.6rem;
-	font-size: 1.4rem;
-}
 /*footer*/
 
 h1 {
