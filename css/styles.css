@@ -34,36 +34,39 @@ header {
 	align-items: center;
 	text-align: center;
 	padding: 0.7rem 0rem;
+
+	form {
+		border: 2px;
+		border-style: solid;
+		border-color: gray;
+		border-radius: 25px;
+		margin-bottom: 0.5rem;
+	}
+	form input {
+		max-width: 250px;
+	}
+	form input,
+	form button {
+		border: none;
+		margin: 5px 5px;
+		background-color: rgb(245, 245, 245);
+	}
+	nav ul li {
+		padding: 0.3rem 0.3rem;
+	}
 }
 
-header form {
-	border: 2px;
-	border-style: solid;
-	border-color: gray;
-	border-radius: 25px;
-	margin-bottom: 0.5rem;
-}
-
-header form input {
-	max-width: 250px;
-}
-
-header form input,
-header form button {
-	border: none;
-	margin: 5px 5px;
-	background-color: rgb(245, 245, 245);
-}
-
-header nav ul li {
-	padding: 0.3rem 0.3rem;
-}
 /*header*/
 
-nav ul {
+nav ul,
+#kontakt-section ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+
+	li span {
+		display: none;
+	}
 }
 
 .ikon-nav {
@@ -82,7 +85,7 @@ nav ul {
 /*Banner*/
 /* våre mest populære */
 
-#våre-mest-popilære-produkter {
+#våre-mest-populære-produkter {
 	#overskrift-produkter {
 		text-align: center;
 	}
@@ -143,9 +146,12 @@ nav ul {
 		display: flex;
 		justify-content: space-between;
 
-		h5,
+		h3,
 		p {
 			margin-top: 5px;
+		}
+		h3 {
+			font-size: 1.2rem;
 		}
 	}
 }
@@ -247,11 +253,14 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-bottom: 3rem;
-	h5 {
+	.h4-kontakt-snarveier {
 		margin-bottom: 0.5rem;
 	}
-
-	nav p {
+	span {
+		display: none;
+	}
+	nav p,
+	#kontakt-section p {
 		display: inline-block;
 		margin: 0.3rem 0;
 		padding-right: 0.5rem;

@@ -3,16 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 		<link rel="stylesheet" href="../css/normalize.css" />
-
 		<link rel="stylesheet" href="../ikoner/css/solid.css" />
 		<link rel="stylesheet" href="../ikoner/css/regular.css" />
 		<link rel="stylesheet" href="../ikoner/css/fontawesome.css" />
 		<link rel="stylesheet" href="../ikoner/css/brands.css" />
-
 		<link rel="stylesheet" href="../css/styles.css" />
-
 		<title>KAFFE OG DESSERT BUTIKKEN</title>
 	</head>
 	<body>
@@ -24,17 +20,22 @@
 						<button><i class="fa-solid fa-magnifying-glass"></i></button>
 					</label>
 				</form>
-				<nav>
+				<nav aria-label="Hovedmeny">
 					<ul id="main-header-nav">
 						<li><a href="index.html">Hjem</a></li>
-						<li><a href="#">Produkter</a></li>
+						<li><a href="#våre-mest-populære-produkter">Produkter</a></li>
 						<li id="nav-logo">
-							<a href="index.html"
-								><img src="../bilder/logo/logo.jpg" alt="Logo for selskapet"
-							/></a>
+							<a href="index.html" aria-label="Hjem">
+								<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet"/>
+								<span>Hjem</span>
+							</a>
 						</li>
-						<li><a href="#kategori-section">Kategorier</a></li>
-						<li><a href="#">Kontakt oss</a></li>
+						<li>
+							<a href="#kategori-section">Kategorier</a>
+						</li>
+						<li>
+							<a href="#kontakt-section">Kontakt oss</a>
+						</li>
 					</ul>
 				</nav>
 				<nav>
@@ -52,12 +53,12 @@
 				</nav>
 			</header>
 			<main>
-				<section id="banner">			
+				<section id="banner" aria-label="Hovedbanner">			
 																	
 				</section>
-				<section id="våre-mest-popilære-produkter">
+				<section id="våre-mest-populære-produkter" aria-label="Våre mest populære produkter">
 					<span id="overskrift-produkter">
-						<h2>Våres mest populære produkter</h2>
+						<h2>Våre mest populære produkter</h2>
 						<p>Lorem ipsum dolor sit amet consecteturorum</p>
 					</span>					
 					<section id="produkt-kapper-section">
@@ -79,7 +80,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -97,7 +98,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -115,7 +116,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -133,7 +134,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -151,7 +152,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -169,7 +170,7 @@
 							</span>						
 							<span>
 								<a href="product.html" aria-label="Naviger til produktet">
-									<h5>Produkt navn</h5>							
+									<h3>Produkt navn</h3>							
 								</a>
 									<p>1499,- kr</p>
 							</span>
@@ -182,7 +183,7 @@
 						</article>						
 					</section>				
 				</section>
-				<section id="kategori-section">
+				<section id="kategori-section" aria-label="Kategorier">
 					<h2>Våre mest populære kategorier</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 					<div id="kategori-grid">
@@ -213,7 +214,7 @@
 						</article>						
 					</div>
 				</section>
-				<section id="anmeldelser-section">
+				<section id="anmeldelser-section" aria-label="Anmeldelser">
 					<h2>Anmeldelser</h2>
 					<div id="anmeldelser-div">
 						<article class="anmeldelser-kort">
@@ -287,47 +288,46 @@
 			</main>
 			<footer>
 				<section id="footer-logo">
-					<a href="index.html"
-						><img src="../bilder/logo/logo.jpg" alt="Logo for selskapet"
-					/></a>
+					<a href="index.html" aria-label="Hjem">
+						<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet"/>
+					</a>
+					<span>Hjem</span>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 				</section>
-				<section>
-					<h5>KONTAKT</h5>
-					<nav>
-						<ul>
-							<li>		
-								<i class="fa-solid fa-location-dot kontakt-i"></i>
-								<p class="kontakt-p"><strong>Adresse:</strong> B R A Veien
-									4, 1757 Halden
-								</p>
-							</li>
-							<li>
-								<i class="fa-solid fa-phone kontakt-i"></i>
-								<p class="kontakt-p"><strong>Telefon:</strong> 69 60 80 00</p>
-							</li>
-							<li>
-								<i class="fa-solid fa-envelope kontakt-i"></i>
-								<p class="kontakt-p"><strong>E-post:</strong> halden@hiof.no
-								</p>
-							</li>
-							<li>
-								<i class="fa-solid fa-clock kontakt-i"></i>
-								<p class="kontakt-p"><strong>Åpningstider:</strong> Stenger 15:00
-								</p>
-							</li>
-						</ul>
-					</nav>
+				<section id="kontakt-section" aria-label="Kontakt informasjon">
+					<h4 class="h4-kontakt-snarveier">KONTAKT INFORMASJON</h4>					
+					<ul>
+						<li>		
+							<i class="fa-solid fa-location-dot kontakt-i"></i>
+							<p class="kontakt-p"><strong>Adresse:</strong> B R A Veien
+								4, 1757 Halden
+							</p>
+						</li>
+						<li>
+							<i class="fa-solid fa-phone kontakt-i"></i>
+							<p class="kontakt-p"><strong>Telefon:</strong> 69 60 80 00</p>
+						</li>
+						<li>
+							<i class="fa-solid fa-envelope kontakt-i"></i>
+							<p class="kontakt-p"><strong>E-post:</strong> halden@hiof.no
+							</p>
+						</li>
+						<li>
+							<i class="fa-solid fa-clock kontakt-i"></i>
+							<p class="kontakt-p"><strong>Åpningstider:</strong> Stenger 15:00
+							</p>
+						</li>
+					</ul>					
 				</section>
-				<section id="snarveier-section">
-					<h5>SNARVEIER</h5>
+				<section id="snarveier-section" aria-label="SNARVEIER">
+					<h4 class="h4-kontakt-snarveier">SNARVEIER</h4>
 					<nav>
 						<ul>
 							<li>
-								<a href="#"><p>Produkter</p></a>
+								<a href="#våre-mest-populære-produkter"><p>Produkter</p></a>
 							</li>
-							<li><p><a href="#">Kategorier</p></a></li>
-							<li><p><a href="#">Kontakt Oss</p></a></li>
+							<li><p><a href="#kategori-section">Kategorier</p></a></li>
+							<li><p><a href="#kontakt-section">Kontakt Oss</p></a></li>
 							<li><p><a href="#">Tilgjengelighetserklæring</p></a></li>
 						</ul>
 					</nav>
