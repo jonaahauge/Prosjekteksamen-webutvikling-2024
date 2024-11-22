@@ -142,6 +142,11 @@ nav ul,
 			color: rgb(245, 245, 245);
 		}
 	}
+
+	.produkt-navn-pris {
+		display: inline;
+	}
+
 	span {
 		display: flex;
 		justify-content: space-between;
