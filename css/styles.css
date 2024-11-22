@@ -86,7 +86,7 @@ nav ul,
 /* våre mest populære */
 
 #våre-mest-populære-produkter {
-	#overskrift-produkter {
+	.overskrift-produkter {
 		text-align: center;
 	}
 }
@@ -145,13 +145,11 @@ nav ul,
 	span {
 		display: flex;
 		justify-content: space-between;
+		font-size: 1rem;
 
-		h3,
-		p {
-			margin-top: 5px;
-		}
-		h3 {
+		a {
 			font-size: 1.2rem;
+			font-weight: 600;
 		}
 	}
 }
@@ -259,7 +257,7 @@ footer {
 	span {
 		display: none;
 	}
-	nav p,
+	#snarveier-section a,
 	#kontakt-section p {
 		display: inline-block;
 		margin: 0.3rem 0;
@@ -319,6 +317,10 @@ a {
 		font-size: 1.6rem;
 	}
 
+	.like-hover:hover {
+		background-color: lightcoral;
+	}
+
 	#nav-logo:hover img,
 	#footer-logo:hover img {
 		opacity: 0.5;
@@ -362,10 +364,6 @@ a {
 		flex-direction: row;
 		justify-content: center;
 		flex-wrap: wrap;
-	}
-
-	.like-hover:hover {
-		background-color: lightcoral;
 	}
 }
 
