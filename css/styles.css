@@ -42,15 +42,18 @@ header {
 		border-radius: 25px;
 		margin-bottom: 0.5rem;
 	}
+
 	form input {
 		max-width: 250px;
 	}
+
 	form input,
 	form button {
 		border: none;
 		margin: 5px 5px;
 		background-color: rgb(245, 245, 245);
 	}
+
 	nav ul li {
 		padding: 0.3rem 0.3rem;
 	}
@@ -145,17 +148,6 @@ nav ul,
 
 	.produkt-navn-pris {
 		display: inline;
-	}
-
-	span {
-		display: flex;
-		justify-content: space-between;
-		font-size: 1rem;
-
-		a {
-			font-size: 1.2rem;
-			font-weight: 600;
-		}
 	}
 }
 
