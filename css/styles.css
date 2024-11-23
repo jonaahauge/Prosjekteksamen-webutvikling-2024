@@ -125,7 +125,9 @@ li span {
 }
 
 .produkt-kort img {
-	width: 250px;
+	max-width: 100%;
+	object-fit: cover;
+	border-radius: 35px;
 }
 
 .produkt-img-ikon-span {
@@ -234,7 +236,6 @@ li span {
 /* anmeldelser */
 
 #anmeldelser-section {
-	border-bottom: 2px solid lightgrey;
 	padding-bottom: 2rem;
 }
 .anmeldelser-kort {
@@ -274,6 +275,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-bottom: 3rem;
+	border-top: 2px solid rgb(125, 125, 125);
 }
 
 .h4-kontakt-snarveier {
