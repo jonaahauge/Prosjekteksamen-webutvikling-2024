@@ -149,7 +149,20 @@ li span {
 }
 
 .produkt-navn-pris {
-	display: inline;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+
+.produkt-navn-pris a {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+.produkt-navn-pris span {
+	font-size: 1rem;
+	font-weight: 500;
+	padding-top: 3px;
 }
 
 /* våre mest populære  */
@@ -327,6 +340,10 @@ a {
 
 /*media regeler for desktop*/
 @media only screen and (min-width: 501px) {
+	#produkt-section h3 a:hover {
+		font-weight: 800;
+	}
+
 	a:hover {
 		font-weight: 700;
 	}
