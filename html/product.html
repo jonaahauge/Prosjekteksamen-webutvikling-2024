@@ -85,15 +85,74 @@
 				</nav>
 			</header>
 			<main>
-				<p>
-					<a href="index.html" aria-label="naviger til hovedsiden"></a
-					><a href="index.html#k"></a>
+				<p class="brødsmule">
+					<a href="index.html" aria-label="naviger til hovedsiden">Hjem</a>
+					<i class="fa-solid fa-arrow-right"></i>
+					<a href="#">Kategori</a>
+					<i class="fa-solid fa-arrow-right"></i>
+					<span>Produktnavn</span>
 				</p>
 				<div id="main-produkt-container">
-					<section id="produktbilder">
-						<figure><picture></picture></figure>
+					<section id="produkt-bilder">
+						<figure id="produktside-bilde1">
+							<picture>
+								<source
+									media="(min-width:501px)"
+									srcset="../bilder/produkter/produkt2-høy.jpg"
+								/>
+								<img src="../bilder/produkter/produkt2-høy.jpg " alt="" />
+							</picture>
+						</figure>
+						<div>
+							<figure class="produkt-lite-bilde" id="produktside-bilde2">
+								<picture>
+									<source
+										media="(min-width:501px)"
+										srcset="../bilder/produkter/produkt2-200x200.jpg"
+									/>
+									<img src="../bilder/produkter/produkt2-200x200.jpg " alt="" />
+								</picture>
+							</figure>
+							<figure class="produkt-lite-bilde" id="produktside-bilde3">
+								<picture>
+									<source
+										media="(min-width:501px)"
+										srcset="../bilder/produkter/produkt2-200x200.jpg"
+									/>
+									<img src="../bilder/produkter/produkt2-200x200.jpg " alt="" />
+								</picture>
+							</figure>
+							<figure class="produkt-lite-bilde" id="produktside-bilde4">
+								<picture>
+									<source
+										media="(min-width:501px)"
+										srcset="../bilder/produkter/produkt2-200x200.jpg"
+									/>
+									<img src="../bilder/produkter/produkt2-200x200.jpg " alt="" />
+								</picture>
+							</figure>
+						</div>
 					</section>
-					<section id="produktinfo"></section>
+					<section id="produktinfo">
+						<h1>Produkt Navn</h1>
+						<h2><a href="#">MERKENAVN</a></h2>
+						<p>149,- kr</p>
+						<p>Farge: <span>....<span></p>
+						<form action="#">
+							
+							<select name="størelse" id="størelse">
+								<option value="none" selected disabled hidden>Velg Størelse</option>
+								<option value="S">XS</option>
+								<option value="S">S</option>
+								<option value="M">M</option>
+								<option value="L">L</option>
+								<option value="XL">XL</option>
+							</select>
+							<button>Legg i handlekruv</button>
+							<button><i class="fa-regular fa-heart like-hover"></i></button>
+						</form>
+
+					</section>
 				</div>
 				<section>
 					<h2 id="lignende-produkter-title">
