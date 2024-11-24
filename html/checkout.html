@@ -15,26 +15,49 @@
 		<div id="main-container">
 			<header>
 				<form action="#">
-					<input type="search" placeholder="Søk..." id="søkefelt" />
+					<input
+						type="search"
+						placeholder="Søk..."
+						id="søkefelt"
+						aria-label="Skriv inn hva du ønsker å søke etter"
+					/>
 					<label>
-						<button><i class="fa-solid fa-magnifying-glass"></i></button>
+						<button aria-label="Klikk for å søke">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
 					</label>
 				</form>
 				<nav aria-label="Hovedmeny">
 					<ul id="main-header-nav">
-						<li><a href="index.html">Hjem</a></li>
-						<li><a href="#våre-mest-populære-produkter">Produkter</a></li>
+						<li>
+							<a href="index.html" aria-label="Naviger hjem">Hjem</a>
+						</li>
+						<li>
+							<a
+								href="index.html#våre-mest-populære-produkter"
+								aria-label="Naviger til våre mest populære produkter"
+								>Produkter</a
+							>
+						</li>
 						<li id="nav-logo">
-							<a href="index.html" aria-label="Hjem">
+							<a href="index.html" aria-label="Naviger hjem">
 								<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet" />
 								<span>Hjem</span>
 							</a>
 						</li>
 						<li>
-							<a href="#kategori-section">Kategorier</a>
+							<a
+								href="index.html#kategori-section"
+								aria-label="Naviger til våre mest populære kategorier"
+								>Kategorier</a
+							>
 						</li>
 						<li>
-							<a href="#kontakt-section">Kontakt oss</a>
+							<a
+								href="#kontakt-section"
+								aria-label="Naviger til kontakt informasjon"
+								>Kontakt oss</a
+							>
 						</li>
 					</ul>
 				</nav>
@@ -99,9 +122,27 @@
 					<h4 class="h4-kontakt-snarveier">SNARVEIER</h4>
 					<nav>
 						<ul>
-							<li><a href="#våre-mest-populære-produkter">Produkter</a></li>
-							<li><a href="#kategori-section">Kategorier</a></li>
-							<li><a href="#kontakt-section">Kontakt Oss</a></li>
+							<li>
+								<a
+									href="index.html#våre-mest-populære-produkter"
+									aria-label="Naviger til våre mest populære produkter"
+									>Produkter</a
+								>
+							</li>
+							<li>
+								<a
+									href="index.html#kategori-section"
+									aria-label="Naviger til våre mest populære kategorier"
+									>Kategorier</a
+								>
+							</li>
+							<li>
+								<a
+									href="#kontakt-section"
+									aria-label="Naviger til kontakt informasjon"
+									>Kontakt Oss</a
+								>
+							</li>
 							<li><a href="#">Tilgjengelighetserklæring</a></li>
 						</ul>
 					</nav>
