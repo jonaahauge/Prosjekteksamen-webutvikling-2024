@@ -408,14 +408,16 @@ footer span {
 	width: 80%;
 	background-color: rgb(20, 20, 20);
 	color: rgb(245, 245, 245);
-	padding: 10px;
+	padding: 1rem;
 	margin-bottom: 3rem;
 }
 
 #størelse-liker-knapp {
-	width: 55px;
+	width: 60px;
 	padding: 1rem;
 	margin-bottom: 3rem;
+	background-color: rgb(245, 245, 245);
+	font-size: 1.4rem;
 }
 
 details {
@@ -516,6 +518,15 @@ a {
 
 	#produkt-info h2 a:hover {
 		font-weight: 800;
+	}
+
+	#størelse-submit-knapp:hover {
+		color: rgb(20, 20, 20);
+		background-color: rgb(245, 245, 245);
+	}
+
+	#størelse-liker-knapp i:hover {
+		color: lightcoral;
 	}
 	/*Hover effekter*/
 
