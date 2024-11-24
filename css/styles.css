@@ -389,7 +389,22 @@ footer span {
 	width: 33%;
 }
 
-#lignende-produkter-section {
+details {
+	border-top: 2px solid rgb(70, 70, 70);
+	padding: 2rem 0;
+	width: 100%;
+}
+
+details summary {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	font-weight: 600;
+	list-style: none;
+}
+
+#lignende-produkter-flex {
 	width: 100%;
 	column-gap: 1rem;
 	display: grid;
@@ -408,7 +423,7 @@ footer span {
 	padding-top: 0.8rem;
 }
 
-#lignende-produkter-section .produkt-kort {
+#lignende-produkter-flex .produkt-kort {
 	width: 300px;
 }
 
@@ -439,6 +454,9 @@ a {
 /*media regeler for desktop*/
 @media only screen and (min-width: 501px) {
 	/*Hover effekter*/
+	details summary:hover {
+		font-size: 1.3rem;
+	}
 	#produkt-section h3 a:hover {
 		font-weight: 800;
 	}
