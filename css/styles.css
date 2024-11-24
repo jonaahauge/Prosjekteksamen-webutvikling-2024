@@ -382,6 +382,42 @@ footer span {
 	width: 100%;
 }
 
+#produkt-info h2 a {
+	text-decoration: underline;
+}
+
+#produkt-info p span {
+	font-weight: 700;
+}
+
+#størelse-select {
+	width: 100%;
+	background-color: rgb(230, 230, 230);
+	padding: 1rem 0.5rem;
+	margin-bottom: 1rem;
+	border-color: rgb(125, 125, 125);
+	border-radius: 5px;
+}
+
+#størelse-form span {
+	display: flex;
+	justify-content: space-between;
+}
+
+#størelse-submit-knapp {
+	width: 80%;
+	background-color: rgb(20, 20, 20);
+	color: rgb(245, 245, 245);
+	padding: 10px;
+	margin-bottom: 3rem;
+}
+
+#størelse-liker-knapp {
+	width: 55px;
+	padding: 1rem;
+	margin-bottom: 3rem;
+}
+
 details {
 	border-top: 2px solid rgb(70, 70, 70);
 	padding: 2rem 0;
@@ -476,6 +512,10 @@ a {
 
 	.like-hover:hover {
 		background-color: lightcoral;
+	}
+
+	#produkt-info h2 a:hover {
+		font-weight: 800;
 	}
 	/*Hover effekter*/
 
