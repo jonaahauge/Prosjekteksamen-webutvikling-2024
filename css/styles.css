@@ -331,24 +331,23 @@ footer span {
 #main-produkt-container {
 	display: flex;
 	flex-wrap: nowrap;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
 }
 
 #produkt-bilder {
-	background-color: antiquewhite;
 	max-width: 700px;
 	width: 100%;
 	display: grid;
 	align-content: center;
 	grid-template-columns: 30% 70%;
-	grid-template-rows: 200px 200px 200px;
+	grid-template-rows: 33% 33% 33%;
 }
 
 #produkt-bilder img {
 	width: 100%;
 	height: 100%;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 #produkt-bilder figure {
@@ -384,7 +383,6 @@ footer span {
 #produkt-info {
 	max-width: 440px;
 	width: 100%;
-	background-color: aquamarine;
 }
 
 details {
