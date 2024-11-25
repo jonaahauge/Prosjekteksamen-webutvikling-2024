@@ -333,6 +333,7 @@ footer span {
 	flex-wrap: nowrap;
 	flex-direction: column;
 	align-items: center;
+	overflow-y: hidden;
 }
 
 #produkt-bilder {
@@ -611,6 +612,17 @@ a {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: start;
+	}
+
+	#produkt-info {
+		overflow-y: auto;
+		max-height: 750px;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	#produkt-info::-webkit-scrollbar {
+		display: none;
 	}
 }
 
