@@ -85,7 +85,7 @@
 				</nav>
 			</header>
 			<main>
-				<h3 #tilbake-link-kasse>
+				<h3 id="tilbake-link-kasse">
 					<a
 						href="index.html#våre-mest-populære-produkter"
 						aria-label="Naviger til produkter for å fortsett og handle"
@@ -120,6 +120,7 @@
 									<option value="L">L</option>
 									<option value="XL">XL</option>
 								</select>
+
 								<label for="antall-kasse-produkt1">Antall</label>
 								<input
 									type="number"
@@ -131,8 +132,14 @@
 									value="1"
 								/>
 							</form>
-							<i class="fa-regular fa-heart"></i>
-							<i class="fa-solid fa-trash"></i>
+							<span>
+								<button aria-label="Klikk for å legge produkt i favoritter">
+									<i class="fa-regular fa-heart"></i>
+								</button>
+								<button aria-label="Klikk for å slett produkt fra handlekurv">
+									<i class="fa-solid fa-trash"></i>
+								</button>
+							</span>
 						</section>
 					</article>
 				</section>

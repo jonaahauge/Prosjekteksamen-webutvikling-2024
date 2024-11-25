@@ -530,6 +530,28 @@ details table td {
 	margin: 2rem 0;
 }
 
+.form-produkt-kasse input {
+	padding: 1rem;
+	width: 70px;
+	border: 2px solid rgb(210, 210, 210);
+	background-color: rgb(245, 245, 245);
+}
+
+.form-produkt-kasse select {
+	padding: 1rem;
+	border: none;
+	width: 70px;
+	background-color: rgb(230, 230, 230);
+	margin-right: 0.5rem;
+	padding-right: 0.25rem;
+}
+
+.produkt-kasse-info button {
+	background-color: rgb(245, 245, 245);
+	border: none;
+	margin-left: -4px;
+}
+
 /*checkout.html*/
 
 h1 {
