@@ -84,7 +84,59 @@
 					</ul>
 				</nav>
 			</header>
-			<main></main>
+			<main>
+				<h3 #tilbake-link-kasse>
+					<a
+						href="index.html#våre-mest-populære-produkter"
+						aria-label="Naviger til produkter for å fortsett og handle"
+						>Fortsett og handle</a
+					>
+				</h3>
+				<h1 id="hoved-title-kasse">Kasse</h1>
+				<section class="kasse-section" aria-label="Innholdet i shoppingbagen">
+					<h2>1. SHOPPINGBAGEN DIN</h2>
+					<article class="produkt-kasse" aria-label="Produkt navn">
+						<img
+							src="../bilder/produkter/product-html/bilde-product-html-133.jpg"
+							alt="bilde av blå jeans"
+						/>
+						<section
+							class="produkt-kasse-info"
+							aria-label="Produkt informasjon"
+						>
+							<h4>PRODUKT NAVN</h4>
+							<p>849,- kr</p>
+							<p>Farge: Blå</p>
+							<form class="form-produkt-kasse" action="#">
+								<label for="størelse-kasse-produkt1">Størelse</label>
+								<select
+									name="størelse-kasse-produkt1"
+									id="størelse-kasse-produkt1"
+									aria-label="Velg størelse her"
+								>
+									<option value="XS">XS</option>
+									<option value="S" selected>S</option>
+									<option value="M">M</option>
+									<option value="L">L</option>
+									<option value="XL">XL</option>
+								</select>
+								<label for="antall-kasse-produkt1">Antall</label>
+								<input
+									type="number"
+									name="antall-kasse-produkt1"
+									id="antall-kasse-produkt1"
+									aria-label="Velg antall her"
+									min="1"
+									max="99"
+									value="1"
+								/>
+							</form>
+							<i class="fa-regular fa-heart"></i>
+							<i class="fa-solid fa-trash"></i>
+						</section>
+					</article>
+				</section>
+			</main>
 			<footer>
 				<section id="footer-logo">
 					<a href="index.html" aria-label="Naviger hjem">

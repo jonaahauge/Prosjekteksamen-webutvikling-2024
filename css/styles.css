@@ -498,6 +498,39 @@ details table td {
 }
 
 /*products.html*/
+/*checkout.html*/
+
+.kasse-section {
+	border: 2px solid rgb(230, 230, 230);
+	padding: 2rem 0.5rem 0rem 2rem;
+}
+
+.kasse-section h2 {
+	font-size: 1.6rem;
+}
+
+.produkt-kasse {
+	width: 100%;
+}
+
+.produkt-kasse-info {
+	padding-left: 2.5rem;
+}
+
+.produkt-kasse-info p {
+	margin: 0 0;
+}
+
+.produkt-kasse-info h4 {
+	margin-bottom: 0;
+	font-size: 1.2rem;
+}
+
+.form-produkt-kasse {
+	margin: 2rem 0;
+}
+
+/*checkout.html*/
 
 h1 {
 	font-size: 2.2rem;
