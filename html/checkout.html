@@ -240,11 +240,104 @@
 					</article>
 				</section>
 				<section
-					class="kasse-section"
-					aria-label="Fyll inn addresse opplysningene dine"
+					class="kasse-section-2"
+					aria-label="Fyll inn adresse opplysningene dine"
 				>
-					<article class="">
+					<article class="article-opp-lev-bet">
 						<h2>2. DINE OPPLYSNINGER</h2>
+						<p class="p-dine-opp">Leveringsadresse:</p>
+						<form id="leverings-adresse" action="#">
+							<label class="input-adresse-form" for="fornavn">Fornavn</label>
+							<input
+								class="input-adresse-form"
+								type="text"
+								id="fornavn"
+								name="fornavn"
+								aria-label="Fyll inn fornavn her"
+								placeholder="Nora*"
+								required
+							/>
+							<label class="input-adresse-form" for="etternavn"
+								>Etternavn</label
+							>
+							<input
+								class="input-adresse-form"
+								type="text"
+								id="etternavn"
+								name="etternavn"
+								aria-label="Fyll inn etternavn her"
+								placeholder="Nordman*"
+								required
+							/>
+							<label class="input-adresse-form" for="gateadresse"
+								>Gateadresse</label
+							>
+							<input
+								class="input-adresse-form"
+								type="text"
+								id="gateadresse"
+								name="gateadresse"
+								aria-label="Fyll in gateadresse her"
+								placeholder="BRA veien 4*"
+								required
+							/>
+							<label class="input-adresse-form" for="postnummer"
+								>Postnummer</label
+							>
+							<input
+								class="input-adresse-form"
+								type="number"
+								id="postnummer"
+								name="postnummer"
+								aria-label="Fyll inn postnummer her"
+								placeholder="1752*"
+								required
+							/>
+							<label class="input-adresse-form" for="">Poststed</label>
+							<input
+								class="input-adresse-form"
+								type="text"
+								id="poststed"
+								name="poststed"
+								aria-label="Fyll inn poststed her"
+								placeholder="Halden*"
+								required
+							/>
+							<p class="p-dine-opp" id="kontakt-info-p">Kontaktinformasjon</p>
+							<label class="input-adresse-form" for="e-post">E-post</label>
+							<input
+								class="input-adresse-form"
+								type="e-post"
+								id="e-post"
+								name="e-post"
+								aria-label="Fyll inn E-post her"
+								placeholder="noranordman@hiof.no*"
+								required
+							/>
+							<label class="input-adresse-form" for="telefon">Telefon</label>
+							<input
+								class="input-adresse-form"
+								type="number"
+								id="telefon"
+								name="telefon"
+								placeholder="+4749***018"
+							/>
+							<button
+								id="dine-opplysninger-knapp"
+								type="submit"
+								aria-label="Klikk for å lagre informasjon"
+							>
+								Lagre
+							</button>
+							<p id="avbryt-link-p">
+								<a
+									id="avbryt-link"
+									href="index.html"
+									aria-label="Klikk her for å Avbryte"
+									>Avbryt</a>
+							</p>
+							</span>
+						</form>
 					</article>
 				</section>
 				<section class="kasse-section-2" aria-label="Velg leverings alternativ">

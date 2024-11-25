@@ -575,10 +575,55 @@ details table td {
 	flex-wrap: wrap;
 	width: 100%;
 	max-width: 700px;
+	padding-right: 1rem;
 }
 
 .article-opp-lev-bet h4 {
 	width: 100%;
+	margin-bottom: 0.3rem;
+}
+
+.p-dine-opp {
+	margin-bottom: 0;
+	font-weight: 600;
+}
+
+.input-adresse-form {
+	width: 100%;
+}
+
+#leverings-adresse label {
+	font-weight: 600;
+}
+
+#leverings-adresse input {
+	padding: 1rem;
+	background-color: rgb(245, 245, 245);
+	margin-bottom: 0.2rem;
+	border: 2px solid rgb(210, 210, 210);
+}
+
+#kontakt-info-p {
+	margin-top: 5rem;
+}
+
+#dine-opplysninger-knapp {
+	background-color: rgb(70, 70, 70);
+	color: rgb(245, 245, 245);
+	width: 100%;
+	padding: 1rem;
+	margin: 2rem 0 1rem 0;
+}
+
+#avbryt-link {
+	text-decoration: underline;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+
+#avbryt-link-p {
+	width: 100%;
+	text-align: center;
 }
 
 .levering-article {
@@ -679,6 +724,15 @@ a {
 
 	#tilbake-link-kasse a:hover {
 		font-size: 1.2rem;
+	}
+
+	#dine-opplysninger-knapp:hover {
+		background-color: rgb(245, 245, 245);
+		color: rgb(20, 20, 20);
+	}
+
+	#avbryt-link:hover {
+		font-weight: 800;
 	}
 	/*Hover effekter*/
 
