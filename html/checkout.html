@@ -246,7 +246,7 @@
 					<article class="article-opp-lev-bet">
 						<h2>2. DINE OPPLYSNINGER</h2>
 						<p class="p-dine-opp">Leveringsadresse:</p>
-						<form id="leverings-adresse" action="#">
+						<form class="leverings-adresse" action="#">
 							<label class="input-adresse-form" for="fornavn">Fornavn</label>
 							<input
 								class="input-adresse-form"
@@ -293,7 +293,7 @@
 								placeholder="1752*"
 								required
 							/>
-							<label class="input-adresse-form" for="">Poststed</label>
+							<label class="input-adresse-form" for="poststed">Poststed</label>
 							<input
 								class="input-adresse-form"
 								type="text"
@@ -307,7 +307,7 @@
 							<label class="input-adresse-form" for="e-post">E-post</label>
 							<input
 								class="input-adresse-form"
-								type="e-post"
+								type="email"
 								id="e-post"
 								name="e-post"
 								aria-label="Fyll inn E-post her"
@@ -323,7 +323,7 @@
 								placeholder="+4749***018"
 							/>
 							<button
-								id="dine-opplysninger-knapp"
+								class="checkout-form-knapp"
 								type="submit"
 								aria-label="Klikk for å lagre informasjon"
 							>
@@ -334,9 +334,9 @@
 									id="avbryt-link"
 									href="index.html"
 									aria-label="Klikk her for å Avbryte"
-									>Avbryt</a>
+									>Avbryt</a
+								>
 							</p>
-							</span>
 						</form>
 					</article>
 				</section>
@@ -396,11 +396,81 @@
 					</article>
 				</section>
 				<section
-					class="kasse-section"
+					class="kasse-section-2"
 					aria-label="Fyll inn betalings informasjon"
 				>
-					<article class="">
+					<article class="article-opp-lev-bet">
 						<h2>4. BETALING</h2>
+						<h4>BETAL MED KORT</h4>
+						<form action="#" class="leverings-adresse">
+							<label class="input-adresse-form" for="kortnummer"
+								>Kortnummer</label
+							>
+							<input
+								class="input-adresse-form"
+								id="kortnummer"
+								name="kortnummer"
+								placeholder="342342****4435"
+								required
+								type="number"
+								aria-label="Fyll inn betalings kortnummer"
+							/>
+							<label class="input-adresse-form" for="utløpsdato"
+								>Utløpsdato</label
+							>
+							<input
+								class="input-adresse-form"
+								type="date"
+								id="utløpsdato"
+								name="utløpsdato"
+								aria-label="Fyll inn utløpsdato på kortet"
+								required
+							/>
+							<label class="input-adresse-form" for="cvc/cvv">CVC/CVV</label>
+							<input
+								class="input-adresse-form"
+								type="text"
+								id="cvc/cvv"
+								name="cvc/cvv"
+								placeholder="CVC/CVV"
+								aria-label="Fyll inn sikkerhets kode på baksiden av korte"
+								required
+							/>
+							<p id="fullføre-kjøp-p" class="fullføre-kjøp-tekst">
+								Å betale inkl. mva.
+							</p>
+							<h2 id="fullføre-kjøp-h2" class="fullføre-kjøp-tekst">
+								2547,- kr
+							</h2>
+							<button
+								class="checkout-form-knapp"
+								type="submit"
+								aria-label="Klikk for å fullføre kjøp"
+							>
+								Fullfør kjøp
+							</button>
+							<p class="fullføre-kjøp-tekst">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+								beatae numquam libero consequuntur, provident, ipsa deleniti
+								nesciunt iure, recusandae quis repellat! Recusandae ipsum
+								blanditiis eius quam est numquam quas odio!
+							</p>
+							<span>
+								<input type="checkbox" name="nyhetsbrev" id="nyhetsbrev" />
+								<label for="nyhetsbrev"
+									>Ja takk! Send nyhetsbrev til meg.</label
+								>
+								<input
+									type="checkbox"
+									name="tekstmeldinger"
+									id="tekstmeldinger"
+								/>
+								<label for="tekstmeldinger"
+									>Jeg ønsker å motta tekstmeldinger med tilbud og
+									nyheter.</label
+								>
+							</span>
+						</form>
 					</article>
 				</section>
 			</main>
