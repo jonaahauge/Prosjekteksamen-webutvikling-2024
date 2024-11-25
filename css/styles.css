@@ -669,6 +669,10 @@ details table td {
 	text-align: center;
 }
 
+#siste-section-kasse {
+	margin-bottom: 3rem;
+}
+
 /*checkout.html*/
 
 h1 {
