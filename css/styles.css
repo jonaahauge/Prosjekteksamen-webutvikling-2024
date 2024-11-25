@@ -574,7 +574,6 @@ details table td {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-
 	width: 100%;
 	max-width: 700px;
 }
