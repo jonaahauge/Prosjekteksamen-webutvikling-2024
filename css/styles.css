@@ -571,7 +571,6 @@ details table td {
 }
 
 .article-opp-lev-bet {
-	position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -583,12 +582,24 @@ details table td {
 }
 
 .levering-article {
+	position: relative;
 	border: 2px solid rgb(210, 210, 210);
 	padding: 1rem;
 	width: 100%;
+	color: rgb(20, 20, 20);
 }
 
-.levering-pris-span {
+.levering-article input {
+	margin-right: 0.5rem;
+}
+
+.levering-article h5 {
+	color: rgb(90, 90, 90);
+	margin: 0.5rem 0;
+}
+
+.levering-pris i {
+	margin-left: 0.3rem;
 }
 
 /*checkout.html*/
@@ -750,6 +761,12 @@ a {
 
 	.kasse-ikon-span i {
 		margin-bottom: 0.3rem;
+	}
+
+	.levering-pris {
+		position: absolute;
+		top: 10px;
+		right: 10px;
 	}
 }
 
