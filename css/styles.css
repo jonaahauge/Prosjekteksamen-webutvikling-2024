@@ -523,6 +523,11 @@ details table td {
 	margin-bottom: 2rem;
 }
 
+.article-handlekurv img {
+	width: 125px;
+	height: 125px;
+}
+
 .produkt-kasse-info {
 	padding-left: 2.5rem;
 }
@@ -531,7 +536,7 @@ details table td {
 	margin: 0 0;
 }
 
-.produkt-kasse-info h4 {
+.produkt-kasse-info h3 {
 	margin-bottom: 0;
 	font-size: 1.2rem;
 }
@@ -578,9 +583,10 @@ details table td {
 	padding-right: 1rem;
 }
 
-.article-opp-lev-bet h4 {
+.article-opp-lev-bet h3 {
 	width: 100%;
-	margin-bottom: 0.3rem;
+	margin-bottom: 0.2rem;
+	font-size: 1.4rem;
 }
 
 .p-dine-opp {
@@ -638,9 +644,15 @@ details table td {
 	margin-right: 0.5rem;
 }
 
-.levering-article h5 {
+.levering-article label {
+	font-weight: 600;
+}
+
+.levering-article h4 {
 	color: rgb(90, 90, 90);
 	margin: 0.5rem 0;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 
 .levering-pris i {
