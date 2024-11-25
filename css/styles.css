@@ -85,9 +85,39 @@ li span {
 /* Main */
 
 /*Banner*/
-#banner {
+#banner-section {
 	width: 100%;
-	height: 300px;
+	height: 500px;
+}
+
+#banner-article-1 {
+	display: flex;
+	flex-direction: column;
+	object-fit: cover;
+	align-items: end;
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+	background-image: url(..//bilder/banner/slider3-1200.jpg);
+	color: rgb(245, 245, 245);
+}
+
+.banner-tekst {
+	max-width: 300px;
+}
+
+#banner-article-1 a {
+	background-color: rgb(245, 245, 245);
+	padding: 1rem;
+	border-radius: 35px;
+}
+
+#banner-article-2 {
+	display: none;
+}
+
+#banner-article-3 {
+	display: none;
 }
 
 /*Banner*/
