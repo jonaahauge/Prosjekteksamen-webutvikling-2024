@@ -661,6 +661,14 @@ details table td {
 	margin: 1rem 0 -0.5rem 0;
 }
 
+#fullføre-kjøp-span {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 4rem;
+	text-align: center;
+}
+
 /*checkout.html*/
 
 h1 {
