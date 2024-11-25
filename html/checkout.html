@@ -89,13 +89,15 @@
 					<a
 						href="index.html#våre-mest-populære-produkter"
 						aria-label="Naviger til produkter for å fortsett og handle"
-						>Fortsett og handle</a
+						><i class="fa-solid fa-arrow-left"></i>Fortsett og handle</a
 					>
 				</h3>
 				<h1 id="hoved-title-kasse">Kasse</h1>
 				<section class="kasse-section" aria-label="Innholdet i shoppingbagen">
-					<h2>1. SHOPPINGBAGEN DIN</h2>
-					<article class="produkt-kasse" aria-label="Produkt navn">
+					<article class="article-handlekurv">
+						<h2>1. SHOPPINGBAGEN DIN</h2>
+					</article>
+					<article class="article-handlekurv" aria-label="Produkt navn">
 						<img
 							src="../bilder/produkter/product-html/bilde-product-html-133.jpg"
 							alt="bilde av blå jeans"
@@ -132,7 +134,7 @@
 									value="1"
 								/>
 							</form>
-							<span>
+							<span class="kasse-ikon-span">
 								<button aria-label="Klikk for å legge produkt i favoritter">
 									<i class="fa-regular fa-heart"></i>
 								</button>
@@ -141,6 +143,145 @@
 								</button>
 							</span>
 						</section>
+					</article>
+					<article class="article-handlekurv" aria-label="Produkt navn">
+						<img
+							src="../bilder/produkter/product-html/bilde-product-html-133.jpg"
+							alt="bilde av blå jeans"
+						/>
+						<section
+							class="produkt-kasse-info"
+							aria-label="Produkt informasjon"
+						>
+							<h4>PRODUKT NAVN</h4>
+							<p>849,- kr</p>
+							<p>Farge: Blå</p>
+							<form class="form-produkt-kasse" action="#">
+								<label for="størelse-kasse-produkt2">Størelse</label>
+								<select
+									name="størelse-kasse-produkt2"
+									id="størelse-kasse-produkt2"
+									aria-label="Velg størelse her"
+								>
+									<option value="XS">XS</option>
+									<option value="S" selected>S</option>
+									<option value="M">M</option>
+									<option value="L">L</option>
+									<option value="XL">XL</option>
+								</select>
+
+								<label for="antall-kasse-produkt2">Antall</label>
+								<input
+									type="number"
+									name="antall-kasse-produkt2"
+									id="antall-kasse-produkt2"
+									aria-label="Velg antall her"
+									min="1"
+									max="99"
+									value="1"
+								/>
+							</form>
+							<span class="kasse-ikon-span">
+								<button aria-label="Klikk for å legge produkt i favoritter">
+									<i class="fa-regular fa-heart"></i>
+								</button>
+								<button aria-label="Klikk for å slett produkt fra handlekurv">
+									<i class="fa-solid fa-trash"></i>
+								</button>
+							</span>
+						</section>
+					</article>
+					<article class="article-handlekurv" aria-label="Produkt navn">
+						<img
+							src="../bilder/produkter/product-html/bilde-product-html-133.jpg"
+							alt="bilde av blå jeans"
+						/>
+						<section
+							class="produkt-kasse-info"
+							aria-label="Produkt informasjon"
+						>
+							<h4>PRODUKT NAVN</h4>
+							<p>849,- kr</p>
+							<p>Farge: Blå</p>
+							<form class="form-produkt-kasse" action="#">
+								<label for="størelse-kasse-produkt3">Størelse</label>
+								<select
+									name="størelse-kasse-produkt3"
+									id="størelse-kasse-produkt3"
+									aria-label="Velg størelse her"
+								>
+									<option value="XS">XS</option>
+									<option value="S" selected>S</option>
+									<option value="M">M</option>
+									<option value="L">L</option>
+									<option value="XL">XL</option>
+								</select>
+
+								<label for="antall-kasse-produkt3">Antall</label>
+								<input
+									type="number"
+									name="antall-kasse-produkt3"
+									id="antall-kasse-produkt3"
+									aria-label="Velg antall her"
+									min="1"
+									max="99"
+									value="1"
+								/>
+							</form>
+							<span class="kasse-ikon-span">
+								<button aria-label="Klikk for å legge produkt i favoritter">
+									<i class="fa-regular fa-heart"></i>
+								</button>
+								<button aria-label="Klikk for å slett produkt fra handlekurv">
+									<i class="fa-solid fa-trash"></i>
+								</button>
+							</span>
+						</section>
+					</article>
+				</section>
+				<section
+					class="kasse-section"
+					aria-label="Fyll inn addresse opplysningene dine"
+				>
+					<article class="">
+						<h2>2. DINE OPPLYSNINGER</h2>
+					</article>
+				</section>
+				<section class="kasse-section-2" aria-label="Velg leverings alternativ">
+					<article class="article-opp-lev-bet">
+						<h2>3. LEVERING</h2>
+						<h4>LEVERINGSVALG</h4>
+						<form id="levering-form" action="#">
+							<article class="levering-article">
+								<input
+									type="radio"
+									aria-label="Express Hjemlevering"
+									id="express-hjem"
+									name="express-hjem"
+								/>
+								<label for="express-hjem">Express Hjemlevering</label>
+								<h5>1-3 Virkedager</h5>
+								<p>99 kr<i class="fa-solid fa-truck"></i></p>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Perspiciatis eius ut excepturi! Facilis magni eius repellat
+									tenetur provident. Quas minus maiores harum!
+								</p>
+							</article>
+						</form>
+					</article>
+
+					<article class="">
+						<h4>LEVERINGSVALG</h4>
+						<form action="#"></form>
+					</article>
+				</section>
+				<section
+					class="kasse-section"
+					aria-label="Fyll inn betalings informasjon"
+				>
+					<article class="">
+						<h2>4. BETALING</h2>
 					</article>
 				</section>
 			</main>

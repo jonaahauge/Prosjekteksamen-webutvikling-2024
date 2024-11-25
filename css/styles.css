@@ -500,17 +500,27 @@ details table td {
 /*products.html*/
 /*checkout.html*/
 
+#tilbake-link-kasse i {
+	margin-right: 1rem;
+}
+
+#hoved-title-kasse {
+	text-align: center;
+}
+
 .kasse-section {
-	border: 2px solid rgb(230, 230, 230);
-	padding: 2rem 0.5rem 0rem 2rem;
+	border: 2px solid rgb(215, 215, 215);
+	padding: 2rem 0.5rem 1rem 2rem;
+	margin-bottom: 2rem;
 }
 
 .kasse-section h2 {
 	font-size: 1.6rem;
 }
 
-.produkt-kasse {
+.article-handlekurv {
 	width: 100%;
+	margin-bottom: 2rem;
 }
 
 .produkt-kasse-info {
@@ -550,6 +560,32 @@ details table td {
 	background-color: rgb(245, 245, 245);
 	border: none;
 	margin-left: -4px;
+}
+.kasse-section-2 {
+	border: 2px solid rgb(215, 215, 215);
+	padding: 2rem 0.5rem 1rem 2rem;
+	margin-bottom: 2rem;
+}
+
+.article-opp-lev-bet {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	max-width: 700px;
+}
+
+.article-opp-lev-bet h4 {
+	width: 100%;
+}
+
+.levering-article {
+	border: 2px solid rgb(210, 210, 210);
+	padding: 1rem;
+	width: 100%;
+}
+
+.levering-pris-span {
 }
 
 /*checkout.html*/
@@ -622,6 +658,14 @@ a {
 	#størelse-liker-knapp i:hover {
 		color: lightcoral;
 	}
+
+	.kasse-ikon-span i:hover {
+		font-size: 1.4rem;
+	}
+
+	#tilbake-link-kasse a:hover {
+		font-size: 1.2rem;
+	}
 	/*Hover effekter*/
 
 	#nav-logo:hover img,
@@ -678,6 +722,31 @@ a {
 
 	#produkt-info::-webkit-scrollbar {
 		display: none;
+	}
+
+	.kasse-section {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.article-handlekurv {
+		position: relative;
+		display: flex;
+		width: 100%;
+		max-width: 700px;
+	}
+
+	.kasse-ikon-span {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.kasse-ikon-span i {
+		margin-bottom: 0.3rem;
 	}
 }
 
