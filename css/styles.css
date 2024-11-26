@@ -47,6 +47,30 @@ figure {
 	margin: 0;
 }
 
+/* hopp til hovedinnhold*/
+.skip {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.skip a {
+	position: absolute;
+	left: -9999px;
+}
+
+.skip a:focus {
+	position: static;
+	left: auto;
+	margin: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: rgba(66, 65, 65, 0.65);
+	color: rgb(245, 245, 245);
+	border-radius: 4px;
+	z-index: 5;
+}
+
+/* hopp til hovedinnhold*/
 /*header*/
 header {
 	display: flex;
@@ -879,6 +903,11 @@ a {
 	}
 
 	#hopp-topp:hover {
+		background-color: rgb(210, 210, 210);
+		color: rgb(20, 20, 20);
+	}
+
+	.skip a:hover {
 		background-color: rgb(210, 210, 210);
 		color: rgb(20, 20, 20);
 	}

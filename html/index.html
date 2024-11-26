@@ -19,6 +19,11 @@
 			itemscope
 			itemtype="https://schema.org/OnlineStore"
 		>
+			<nav class="skip">
+				<a href="#hoved-titel-section" aria-label="Naviger til hovedinnhold"
+					>Hopp til hovedinnhold</a
+				>
+			</nav>
 			<header>
 				<form action="#">
 					<input
@@ -136,17 +141,19 @@
 						<span class="banner-overlay"></span>
 					</article>
 				</section>
-				<section
-					id="hoved-titel-section"
-					aria-label="Hovedtitel på Nettbutikken"
-				>
-					<h1 itemprop="name">NETTBUTIKK</h1>
+				<section id="hoved-titel-section" aria-labelledby="hoved-overskrift">
+					<h1 id="hoved-overskrift" itemprop="name">NETTBUTIKK</h1>
 				</section>
 				<section
 					id="våre-mest-populære-produkter"
-					aria-label="Våre mest populære produkter"
+					aria-labelledby="overskrift-våre-mest-populære-produkter"
 				>
-					<h2 class="overskrift-produkter">Våre mest populære produkter</h2>
+					<h2
+						id="overskrift-våre-mest-populære-produkter"
+						class="overskrift-produkter"
+					>
+						Våre mest populære produkter
+					</h2>
 					<p class="overskrift-produkter">
 						Lorem ipsum dolor sit amet consecteturorum
 					</p>
@@ -436,34 +443,37 @@
 						</article>
 					</div>
 				</section>
-				<section id="kategori-section" aria-label="Kategorier">
-					<h2>Våre mest populære kategorier</h2>
+				<section id="kategori-section" aria-labelledby="overskrift-kategorier">
+					<h2 id="overskrift-kategorier">Våre mest populære kategorier</h2>
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
 					<div id="kategori-grid">
-						<article id="kategori1">
+						<article id="kategori1" aria-labelledby="overskrift-kategori1">
 							<span></span>
-							<h3>KATEGORI 1</h3>
+							<h3 id="overskrift-kategori1">KATEGORI 1</h3>
 						</article>
-						<article id="kategori2">
+						<article id="kategori2" aria-labelledby="overskrift-kategori2">
 							<span></span>
-							<h3>KATEGORI 2</h3>
+							<h3 id="overskrift-kategori2">KATEGORI 2</h3>
 						</article>
-						<article id="kategori3">
+						<article id="kategori3" aria-labelledby="overskrift-kategori3">
 							<span></span>
-							<h3>KATEGORI 3</h3>
+							<h3 id="overskrift-kategori3">KATEGORI 3</h3>
 						</article>
-						<article id="kategori4">
+						<article id="kategori4" aria-labelledby="overskrift-kategori4">
 							<span></span>
-							<h3>KATEGORI 4</h3>
+							<h3 id="overskrift-kategori4">KATEGORI 4</h3>
 						</article>
-						<article id="kategori5">
+						<article id="kategori5" aria-labelledby="overskrift-kategori5">
 							<span></span>
-							<h3>KATEGORI 5</h3>
+							<h3 id="overskrift-kategori5">KATEGORI 5</h3>
 						</article>
 					</div>
 				</section>
-				<section id="anmeldelser-section" aria-label="Anmeldelser">
-					<h2>Anmeldelser</h2>
+				<section
+					id="anmeldelser-section"
+					aria-labelledby="overskrift-anmeldelser"
+				>
+					<h2 id="overskrift-anmeldelser">Anmeldelser</h2>
 					<div
 						id="anmeldelser-div"
 						itemprop="aggregateRating"
@@ -595,8 +605,10 @@
 					<span>Hjem</span>
 					<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
 				</section>
-				<section id="kontakt-section" aria-label="Kontakt informasjon">
-					<h4 class="h4-kontakt-snarveier">KONTAKT INFORMASJON</h4>
+				<section id="kontakt-section" aria-labelledby="overskirft-kontakt">
+					<h4 id="overskirft-kontakt" class="h4-kontakt-snarveier">
+						KONTAKT INFORMASJON
+					</h4>
 					<ul>
 						<li>
 							<i class="fa-solid fa-location-dot kontakt-i"></i>
@@ -633,8 +645,10 @@
 						</li>
 					</ul>
 				</section>
-				<section id="snarveier-section" aria-label="SNARVEIER">
-					<h4 class="h4-kontakt-snarveier">SNARVEIER</h4>
+				<section id="snarveier-section" aria-labelledby="overskrift-snarveier">
+					<h4 id="overskrift-snarveier" class="h4-kontakt-snarveier">
+						SNARVEIER
+					</h4>
 					<nav>
 						<ul>
 							<li>
@@ -662,8 +676,8 @@
 						</ul>
 					</nav>
 				</section>
-				<section id="sosiale-section" aria-label="Sosiale medier">
-					<h4>SOSIALE MEDIER</h4>
+				<section id="sosiale-section" aria-labelledby="overskrift-sosiale">
+					<h4 id="overskrift-sosiale">SOSIALE MEDIER</h4>
 					<nav>
 						<ul class="ikon-nav">
 							<li>
