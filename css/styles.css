@@ -456,6 +456,7 @@ footer span {
 	flex-direction: column;
 	align-items: center;
 	overflow-y: hidden;
+	margin-top: 1rem;
 }
 
 #produkt-bilder {
