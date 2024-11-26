@@ -14,7 +14,11 @@
 		<title>Nettbutikk</title>
 	</head>
 	<body>
-		<div id="main-container">
+		<div
+			id="main-container"
+			itemscope
+			itemtype="https://schema.org/OnlineStore"
+		>
 			<header>
 				<form action="#">
 					<input
@@ -127,6 +131,12 @@
 						<a href="#" aria-label="Klikk for å lese mer">LES MER</a>
 						<span class="banner-overlay"></span>
 					</article>
+				</section>
+				<section
+					id="hoved-titel-section"
+					aria-label="Hovedtitel på Nettbutikken"
+				>
+					<h1 itemprop="name">NETTBUTIKK</h1>
 				</section>
 				<section
 					id="våre-mest-populære-produkter"
@@ -450,7 +460,14 @@
 				</section>
 				<section id="anmeldelser-section" aria-label="Anmeldelser">
 					<h2>Anmeldelser</h2>
-					<div id="anmeldelser-div">
+					<div
+						id="anmeldelser-div"
+						itemprop="aggregateRating"
+						itemscope
+						itemtype="https://schema.org/AggregateRating"
+					>
+						<meta itemprop="reviewCount" content="450" />
+						<meta itemprop="ratingValue" content="4.0" />
 						<article class="anmeldelser-kort">
 							<img
 								src="../bilder/anmeldelser/avtar50.jpg"
@@ -576,7 +593,10 @@
 						<li>
 							<i class="fa-solid fa-location-dot kontakt-i"></i>
 							<p class="kontakt-p">
-								<strong>Adresse:</strong> B R A Veien 4, 1757 Halden
+								<strong>Adresse:</strong
+								><span class="display-span-inline" itemprop="address">
+									>B R A Veien 4 , 1757 > >Halden ></span
+								>
 							</p>
 						</li>
 						<li>
@@ -585,7 +605,12 @@
 						</li>
 						<li>
 							<i class="fa-solid fa-envelope kontakt-i"></i>
-							<p class="kontakt-p"><strong>E-post:</strong> halden@hiof.no</p>
+							<p class="kontakt-p">
+								<strong>E-post:</strong>
+								<span class="display-span-inline" itemprop="email"
+									>halden@hiof.no</span
+								>
+							</p>
 						</li>
 						<li>
 							<i class="fa-solid fa-clock kontakt-i"></i>
