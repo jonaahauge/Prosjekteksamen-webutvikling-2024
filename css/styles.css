@@ -88,6 +88,7 @@ li span {
 #banner-section {
 	width: 100%;
 	height: 500px;
+	scrollbar-width: thin;
 }
 
 .banner-article {
@@ -99,9 +100,12 @@ li span {
 	width: 100%;
 	height: 100%;
 	border-radius: 25px;
-	padding: 2rem;
-
+	padding: 0 3.5rem;
 	color: rgb(245, 245, 245);
+}
+
+.banner-scroll-i {
+	display: none;
 }
 
 .banner-overlay {
@@ -324,6 +328,7 @@ li span {
 	display: grid;
 	grid-auto-flow: column;
 	overflow-x: scroll;
+	scrollbar-width: thin;
 }
 
 /*anmeldelser*/
@@ -545,6 +550,8 @@ details table td {
 	display: grid;
 	grid-auto-flow: column;
 	overflow-x: scroll;
+	scrollbar-width: thin;
+	margin-bottom: 2rem;
 }
 
 #lignende-produkter-title {
@@ -949,6 +956,27 @@ a {
 		width: 1165px;
 		display: flex;
 		background-image: url(..//bilder/banner/slider3-1200.jpg);
+	}
+
+	.banner-scroll-i {
+		display: block;
+		position: absolute;
+		padding: 1rem;
+		font-size: 1.4rem;
+		border-radius: 50px;
+		z-index: 3;
+		background-color: rgba(125, 125, 125, 0.65);
+		color: rgb(245, 245, 245);
+	}
+
+	.banner-scroll-i-right {
+		top: 45%;
+		right: 10px;
+	}
+
+	.banner-scroll-i-left {
+		top: 45%;
+		left: 10px;
 	}
 }
 
