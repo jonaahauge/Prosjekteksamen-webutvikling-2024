@@ -39,7 +39,11 @@
 						<li><a href="#våre-mest-populære-produkter">Produkter</a></li>
 						<li id="nav-logo">
 							<a href="index.html" aria-label="Hjem">
-								<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet" />
+								<img
+									itemprop="logo"
+									src="../bilder/logo/logo.jpg"
+									alt="Logo for selskapet"
+								/>
 								<span>Hjem</span>
 							</a>
 						</li>
@@ -582,7 +586,11 @@
 			<footer>
 				<section id="footer-logo">
 					<a href="index.html" aria-label="Hjem">
-						<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet" />
+						<img
+							itemprop="logo"
+							src="../bilder/logo/logo.jpg"
+							alt="Logo for selskapet"
+						/>
 					</a>
 					<span>Hjem</span>
 					<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
@@ -595,13 +603,18 @@
 							<p class="kontakt-p">
 								<strong>Adresse:</strong
 								><span class="display-span-inline" itemprop="address">
-									>B R A Veien 4 , 1757 > >Halden ></span
+									B R A Veien 4, 1757 Halden</span
 								>
 							</p>
 						</li>
 						<li>
 							<i class="fa-solid fa-phone kontakt-i"></i>
-							<p class="kontakt-p"><strong>Telefon:</strong> 69 60 80 00</p>
+							<p class="kontakt-p">
+								<strong>Telefon:</strong>
+								<span class="display-span-inline" itemprop="telephone"
+									>69 60 80 00</span
+								>
+							</p>
 						</li>
 						<li>
 							<i class="fa-solid fa-envelope kontakt-i"></i>
@@ -681,6 +694,12 @@
 					</nav>
 				</section>
 			</footer>
+			<a
+				id="hopp-topp"
+				href="index.html"
+				aria-label="Naviger til toppen av siden"
+				><i class="fa-solid fa-arrow-up"></i
+			></a>
 		</div>
 	</body>
 </html>
