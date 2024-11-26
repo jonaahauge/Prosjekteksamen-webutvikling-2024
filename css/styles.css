@@ -31,6 +31,10 @@ a {
 	display: inline;
 }
 
+figure {
+	margin: 0;
+}
+
 /*header*/
 header {
 	display: flex;
@@ -191,7 +195,7 @@ li span {
 }
 
 .produkt-kort img {
-	max-width: 100%;
+	width: 100%;
 	object-fit: cover;
 	border-radius: 35px;
 }
@@ -315,6 +319,8 @@ li span {
 }
 
 .anmeldelser-kort img {
+	width: 50px;
+	height: 50px;
 	border-radius: 25px;
 }
 
@@ -428,10 +434,6 @@ footer span {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-}
-
-#produkt-bilder figure {
-	margin: 0;
 }
 
 #produktside-bilde1 {
