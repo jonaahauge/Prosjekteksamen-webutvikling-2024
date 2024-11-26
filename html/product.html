@@ -14,7 +14,11 @@
 		<title>Nettbutikk</title>
 	</head>
 	<body>
-		<div id="main-container">
+		<div
+			id="main-container"
+			itemscope
+			itemtype="https://schema.org/OnlineStore"
+		>
 			<nav class="skip">
 				<a href="#hoved-titel-section" aria-label="Naviger til hovedinnhold"
 					>Hopp til hovedinnhold</a
@@ -48,8 +52,12 @@
 						</li>
 						<li id="nav-logo">
 							<a href="index.html" aria-label="Naviger hjem">
-								<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet" />
-								<span>Hjem</span>
+								<img
+									itemprop="logo"
+									src="../bilder/logo/logo.jpg"
+									alt="Logo for selskapet"
+								/>
+								<span itemprop="name">NETTBUTIKK</span>
 							</a>
 						</li>
 						<li>
@@ -113,7 +121,7 @@
 							itemscope
 							itemtype="https://schema.org/ListItem"
 						>
-							<a itemprop="item" itemprop="item" href="#"
+							<a itemprop="item" href="#"
 								><span class="display-span-inline" itemprop="name"
 									>Kategori</span
 								></a
@@ -407,9 +415,9 @@
 							itemscope
 							itemtype="https://schema.org/AggregateRating"
 						>
-							<meta itemprop="reviewCount" content="25" />
-							<meta itemprop="ratingValue" content="4.0" />
 							<summary>
+								<meta itemprop="reviewCount" content="25" />
+								<meta itemprop="ratingValue" content="4.0" />
 								Anmeldelser
 								<span>
 									<i class="fa-solid fa-star"></i>
@@ -599,9 +607,13 @@
 			<footer>
 				<section id="footer-logo">
 					<a href="index.html" aria-label="Hjem">
-						<img src="../bilder/logo/logo.jpg" alt="Logo for selskapet" />
+						<img
+							itemprop="logo"
+							src="../bilder/logo/logo.jpg"
+							alt="Logo for selskapet"
+						/>
 					</a>
-					<span>Hjem</span>
+					<span itemprop="name">NETTBUTIKK</span>
 					<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
 				</section>
 				<section id="kontakt-section" aria-label="Kontakt informasjon">
@@ -610,16 +622,19 @@
 						<li>
 							<i class="fa-solid fa-location-dot kontakt-i"></i>
 							<p class="kontakt-p">
-								<strong>Adresse:</strong> B R A Veien 4, 1757 Halden
+								<strong>Adresse:</strong>
+								<span itemprop="PostalAddress" class="display-span-inline"
+									>B R A Veien 4, 1757 Halden</span
+								>
 							</p>
 						</li>
 						<li>
 							<i class="fa-solid fa-phone kontakt-i"></i>
-							<p class="kontakt-p"><strong>Telefon:</strong> 69 60 80 00</p>
+							<p class="kontakt-p"><strong>Telefon:</strong> <span itemprop="telephone" class="display-span-inline">69 60 80 00</span></p>
 						</li>
 						<li>
 							<i class="fa-solid fa-envelope kontakt-i"></i>
-							<p class="kontakt-p"><strong>E-post:</strong> halden@hiof.no</p>
+							<p class="kontakt-p"><strong>E-post:</strong> <span itemprop="email" class="display-span-inline">halden@hiof.no<span itemprop="PostalAddress" class="display-span-inline"></p>
 						</li>
 						<li>
 							<i class="fa-solid fa-clock kontakt-i"></i>
