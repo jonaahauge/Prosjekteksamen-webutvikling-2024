@@ -90,26 +90,49 @@ li span {
 	height: 500px;
 }
 
-#banner-article-1 {
+.banner-article {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	object-fit: cover;
-	align-items: end;
-	height: 100%;
+	justify-content: center;
 	width: 100%;
+	height: 100%;
 	border-radius: 25px;
-	background-image: url(..//bilder/banner/slider3-1200.jpg);
+	padding: 2rem;
+
 	color: rgb(245, 245, 245);
 }
 
-.banner-tekst {
-	max-width: 300px;
+.banner-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 25px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(66, 65, 65, 0.35);
+	z-index: 2;
 }
 
-#banner-article-1 a {
+#banner-article-1 {
+	background-image: url(..//bilder/banner/slider1-600.jpg);
+	align-items: end;
+	text-align: end;
+}
+
+.banner-tekst {
+	max-width: 400px;
+	z-index: 3;
+}
+
+.banner-article a {
 	background-color: rgb(245, 245, 245);
 	padding: 1rem;
 	border-radius: 35px;
+	z-index: 3;
+	width: fit-content;
+	font-weight: 800;
 }
 
 #banner-article-2 {
@@ -220,6 +243,7 @@ li span {
 	height: 100%;
 	background-color: rgba(66, 65, 65, 0.65);
 	border-radius: 50px;
+	z-index: 2;
 }
 
 #kategori-grid article {
@@ -235,6 +259,7 @@ li span {
 
 #kategori-grid article h3 {
 	position: absolute;
+	z-index: 3;
 }
 
 #kategori1 {
@@ -514,7 +539,7 @@ details table td {
 	text-align: center;
 }
 
-#lignende-produkter-flex {
+#lignende-produkter-grid {
 	width: 100%;
 	column-gap: 1rem;
 	display: grid;
@@ -533,7 +558,7 @@ details table td {
 	padding-top: 0.8rem;
 }
 
-#lignende-produkter-flex .produkt-kort {
+#lignende-produkter-grid .produkt-kort {
 	width: 300px;
 }
 
@@ -899,6 +924,31 @@ a {
 		position: absolute;
 		top: 10px;
 		right: 10px;
+	}
+
+	#banner-section {
+		display: grid;
+		grid-auto-flow: column;
+		overflow-x: scroll;
+		overflow-y: auto;
+		column-gap: 3rem;
+	}
+
+	#banner-article-1 {
+		width: 1165px;
+		background-image: url(..//bilder/banner/slider1-1200.jpg);
+	}
+
+	#banner-article-2 {
+		width: 1165px;
+		display: flex;
+		background-image: url(..//bilder/banner/slider2-1200.jpg);
+	}
+
+	#banner-article-3 {
+		width: 1165px;
+		display: flex;
+		background-image: url(..//bilder/banner/slider3-1200.jpg);
 	}
 }
 
