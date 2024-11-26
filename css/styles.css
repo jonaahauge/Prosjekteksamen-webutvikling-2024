@@ -314,8 +314,9 @@ li span {
 	border-radius: 25px;
 }
 
-.anmeldelser-kort h5 {
+.anmeldelser-kort h3 {
 	margin: 0.5rem 0;
+	font-size: 1.2rem;
 }
 
 .anmeldelser-kort p {
