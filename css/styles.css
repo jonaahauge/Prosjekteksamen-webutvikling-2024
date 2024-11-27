@@ -836,6 +836,9 @@ a {
 /*media regeler for desktop*/
 @media only screen and (min-width: 600px) {
 	/*Hover effekter*/
+	/*Edringer i forhold til UU, dette gjelder de fleste av hover effektene, men da mange elementer deler noe CSS
+	derfor har det ikke hvert nødvedig å gjøre endringer på alle elementene. Hoved delen av det som har blitt endret
+	er tillegg for farge endring av tekst ved hover */
 	details summary:hover {
 		font-size: 1.3rem;
 		color: rgb(125, 125, 125);
@@ -918,6 +921,9 @@ a {
 		background-color: rgb(210, 210, 210);
 		color: rgb(20, 20, 20);
 	}
+	/*Edringer i forhold til UU, dette gjelder de fleste av hover effektene, men da mange elementer deler noe CSS
+	derfor har det ikke hvert nødvedig å gjøre endringer på alle elementene. Hoved delen av det som har blitt endret
+	er tillegg for farge endring av tekst ved hover */
 
 	/*Hover effekter*/
 
