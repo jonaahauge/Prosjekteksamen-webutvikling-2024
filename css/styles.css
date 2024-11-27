@@ -135,7 +135,7 @@ li span {
 	height: 500px;
 	scrollbar-width: thin;
 }
-
+/* Eringer gjort i forohld til UU*/
 .banner-article {
 	position: relative;
 	display: flex;
@@ -148,11 +148,11 @@ li span {
 	padding: 0 3.5rem;
 	color: rgb(255, 255, 255);
 }
-
+/* Eringer gjort i forohld til UU*/
 .banner-scroll-i {
 	display: none;
 }
-
+/* Eringer gjort i forohld til UU*/
 .banner-overlay {
 	position: absolute;
 	top: 0;
@@ -163,7 +163,7 @@ li span {
 	background-color: rgba(20, 20, 20, 0.6);
 	z-index: 2;
 }
-
+/* Eringer gjort i forohld til UU*/
 #banner-article-1 {
 	background-image: url(..//bilder/banner/slider1-600.jpg);
 	align-items: end;
@@ -288,6 +288,7 @@ li span {
 	justify-content: center;
 }
 
+/* endring gjort i forhold til UU */
 #kategori-grid span {
 	width: 100%;
 	height: 100%;
@@ -306,6 +307,7 @@ li span {
 	color: rgb(255, 255, 255);
 	border-radius: 50px;
 }
+/* endring gjort i forhold til UU */
 
 #kategori-grid article h3 {
 	position: absolute;
