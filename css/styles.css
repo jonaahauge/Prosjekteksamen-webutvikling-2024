@@ -266,6 +266,7 @@ li span {
 .produkt-navn-pris a {
 	font-size: 1.2rem;
 	font-weight: 700;
+	text-decoration: underline;
 }
 
 .produkt-navn-pris span {
@@ -806,6 +807,9 @@ details table td {
 	margin-bottom: 3rem;
 }
 
+#dine-opp-p {
+}
+
 /*checkout.html*/
 
 h1 {
@@ -835,25 +839,31 @@ a {
 	/*Hover effekter*/
 	details summary:hover {
 		font-size: 1.3rem;
+		color: rgb(125, 125, 125);
 	}
 	#produkt-section h3 a:hover {
 		font-weight: 800;
+		color: rgb(125, 125, 125);
 	}
 
 	#lignende-produkter-section h3 a:hover {
 		font-weight: 800;
+		color: rgb(125, 125, 125);
 	}
 
 	#lignende-produkter-title a:hover {
 		font-size: 1.1rem;
+		color: rgb(125, 125, 125);
 	}
 
 	a:hover {
 		font-weight: 700;
+		color: rgb(125, 125, 125);
 	}
 
 	a:hover h5 {
 		font-weight: 800;
+		color: rgb(125, 125, 125);
 	}
 
 	a i:hover {
@@ -873,12 +883,14 @@ a {
 		background-color: rgb(245, 245, 245);
 	}
 
-	#størelse-liker-knapp i:hover {
+	#størelse-liker-knapp:hover {
+		background-color: rgb(210, 210, 210);
 		color: lightcoral;
 	}
 
 	.kasse-ikon-span i:hover {
 		font-size: 1.4rem;
+		color: rgb(125, 125, 125);
 	}
 
 	#tilbake-link-kasse a:hover {
@@ -1125,46 +1137,3 @@ a {
 		grid-row: 2/4;
 	}
 }
-
-/* banner
-	.slideshow {
-		--slide-width: clamp(300px, 100vw, 1200px);
-		--slide-hight: clamp();
-
-		height: 25rem;
-		display: grid;
-		grid-auto-flow: column;
-		scroll-snap-type: x mandatory;
-		overflow-x: scroll;
-		scroll-behavior: smooth;
-		scrollbar-width: thin;
-		border-radius: 25px;
-	}
-
-	#slide1 {
-		background-image: url(..//bilder/banner/slider1-1200.jpg);
-		width: var(--slide-width);
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-	#slide2 {
-		background-image: url(..//bilder/banner/slider2-1200.jpg);
-		width: 100vw;
-
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-	#slide3 {
-		background-image: url(..//bilder/banner/slider3-1200.jpg);
-		width: 100vw;
-
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
-
-	 banner */
